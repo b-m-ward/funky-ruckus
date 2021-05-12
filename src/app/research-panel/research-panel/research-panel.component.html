@@ -1,0 +1,11 @@
+<div>
+    <label for="ticker-input">$t: </label>
+    <input id="ticker-input" type="text" [(ngModel)]="ticker">
+    <button id="search-ticker" (click)="search()">Search</button>
+    <br>
+    <span>Searching: </span>
+    <div *ngFor="let url of urls">
+        <input type="checkbox" name="{{url.PrettyName}}" id="{{url.PrettyName}}" [(ngModel)]="url.isSearchable">
+        <label for="{{url.prettyName}}">{{url.prettyName}}</label>
+    </div>
+</div>
