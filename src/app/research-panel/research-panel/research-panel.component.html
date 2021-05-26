@@ -7,6 +7,6 @@
     <div *ngFor="let url of urls" style="border-top: 1px solid black;">
         <input type="checkbox" name="{{url.PrettyName}}" id="{{url.PrettyName}}" [(ngModel)]="url.isSearchable">
         <label for="{{url.prettyName}}">{{url.prettyName}}</label>
-        <a href="{{url.url + ticker}}" style="padding: 30px;">link</a>
+        <a href="{{url.url + ticker}}" style="padding-left: 30px;">link</a>
     </div>
 </div>
