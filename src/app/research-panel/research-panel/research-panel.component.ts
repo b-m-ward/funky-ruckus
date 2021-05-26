@@ -19,7 +19,7 @@ export class ResearchPanelComponent implements OnInit {
     { url: `https://robinhood.com/stocks/`, isSearchable: true, prettyName: 'robinhood'},
     { url: `https://www.moodys.com/search?keyword=`, isSearchable: true, prettyName: 'moodys' },
     { url: `https://finviz.com/quote.ashx?t=`, isSearchable: true, prettyName: 'f i n v i z'},
-    { url: `https://stocktwits.com/symbol/`, isSearchable: true, prettyName: 'stocktwits'} 
+    { url: `https://stocktwits.com/symbol/`, isSearchable: true, prettyName: 'stocktwits'}
     
 ];
   constructor() { }
